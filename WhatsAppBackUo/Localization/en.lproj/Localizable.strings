@@ -1,0 +1,5 @@
+"OnBoardOne" = "Let’s launch the Whatsapp app, select a friend from your contacts, and scroll down";
+"OnBoardTwo" = "Select the \"Export Chat\" feature";
+"OnBoardThree" = "You will be prompted again to select an option related to Media; this time, go ahead and choose \"Attach Media\"";
+"OnBoardFour" = "Once the processing is complete, a list of applications will be displayed. Please select the one you wish to import";
+"OnBoardFive" = "This application will launch and begin syncing. Once the process is complete, it will display the imported username";
