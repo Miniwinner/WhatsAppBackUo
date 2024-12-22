@@ -21,7 +21,7 @@ private extension Coordiantor {
     
     func pushToFlowBlock(_ viewController: UIViewController) {
         print("ewrqewr")
-        let vc = WhatsTabBar()
+        let vc = CustomTabBarVC()
         vc.modalPresentationStyle = .fullScreen
         viewController.present(vc, animated: false)
     }
@@ -31,7 +31,7 @@ private extension Coordiantor {
 extension Coordiantor: UserInteredValid {
     func callCoo(_ viewController: UIViewController) {
         print("ewrqewr")
-        let vc = WhatsTabBar()
+        let vc = CustomTabBarVC()
         vc.modalPresentationStyle = .fullScreen
         viewController.present(vc, animated: true)
     }

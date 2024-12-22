@@ -14,11 +14,13 @@ class OnboardingVC: UIViewController {
     
     private var fromFlow: Bool = false
     
+    private var widthCollection: CGFloat = 0
+    private var heightCollection: CGFloat = 0
+    
     let pageView = PageView()
     
-    let back: UIImageView = .init(image: UIImage(named: "back"))
+    let  back: UIImageView = .init(image: UIImage(named: "back"))
     
-    private let colors: [UIColor] = [.red,.green,.blue,.yellow]
     private var currentIndex: Int = 0
     
     weak var delegate: OnBoardingDelegate?
@@ -37,15 +39,15 @@ class OnboardingVC: UIViewController {
         button.setTitle("Next", for: .normal)
         button.backgroundColor = .white
         button.setTitleColor(.black, for: .normal)
-        button.titleLabel?.font = .custom(type: .glRegular, size: 20)
-        button.layer.cornerRadius = 22
-        button.titleEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 60)
-        button.imageEdgeInsets = UIEdgeInsets(top: 0, left: 80, bottom: 0, right: 0)
+        button.titleLabel?.font = .custom(type: .glRegular, size: UIDevice.pad ? 30:20)
+        button.layer.cornerRadius = UIDevice.pad ? 74/2:22
+        button.titleEdgeInsets = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: UIDevice.pad ? 100:60)
+        button.imageEdgeInsets = UIEdgeInsets(top: 0, left: UIDevice.pad ? 100:80, bottom: 0, right: 0)
     }
 
     let btnSkip = UIButton() --> {
         $0.setTitle("Skip", for: .normal)
-        $0.titleLabel?.font = .custom(type: .glSemiBold, size: 20)
+        $0.titleLabel?.font = .custom(type: .glSemiBold, size: UIDevice.pad ? 40:20)
         $0.setTitleColor(.white, for: .normal)
         $0.setTitleColor(.lightGray, for: .selected)
     }
@@ -66,6 +68,12 @@ class OnboardingVC: UIViewController {
         view.backgroundColor = .red
     }
     
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        widthCollection = collection.frame.width - 240
+        heightCollection = collection.frame.height - 240
+        collection.collectionViewLayout = makeLayout()
+    }
     
     
     @objc func skipOnBoard() {
@@ -121,43 +129,47 @@ private extension OnboardingVC {
         view.addSubview(back)
         back.snp.makeConstraints { make in
             make.top.horizontalEdges.equalToSuperview()
-            make.bottom.equalToSuperview().inset(-60)
+            make.bottom.equalToSuperview().inset(UIDevice.pad ? -80:-60)
             
         }
         
+        view.addSubview(collection)
+
+        
         view.addSubview(btnSkip)
         btnSkip.snp.makeConstraints { make in
-            make.right.equalToSuperview().inset(20)
-            make.top.equalToSuperview().inset(60)
-            make.height.equalTo(24)
-            make.width.equalTo(40)
+            make.right.equalToSuperview().inset(UIDevice.pad ? 120:20)
+            make.top.equalToSuperview().inset(UIDevice.pad ? 80:60)
+            make.height.equalTo(UIDevice.pad ? 40:24)
+            make.width.equalTo(UIDevice.pad ? 80:40)
         }
         
         view.addSubview(pageView)
         pageView.snp.makeConstraints { make in
             make.top.equalTo(btnSkip)
-            make.left.equalToSuperview().inset(20)
-            make.height.equalTo(9)
-            make.width.equalTo(106)
+            make.left.equalToSuperview().inset(UIDevice.pad ? 120:20)
+            make.height.equalTo(UIDevice.pad ? 15:9)
+            make.width.equalTo(UIDevice.pad ? 182:97)
         }
         
-        view.addSubview(collection)
         collection.snp.makeConstraints { make in
-            make.top.equalTo(btnSkip.snp.bottom).offset(20)
+            make.top.equalTo(pageView.snp.bottom).offset(40)
             make.horizontalEdges.equalToSuperview()
+//
         }
         
         view.addSubview(btnNext)
         btnNext.snp.makeConstraints { make in
-            make.top.equalTo(collection.snp.bottom).offset(10)
-            make.bottom.equalToSuperview().inset(60)
-            make.horizontalEdges.equalToSuperview().inset(16)
-            make.height.equalTo(44)
+            make.top.equalTo(collection.snp.bottom).offset(UIDevice.pad ? 40:10)
+            make.bottom.equalToSuperview().inset(UIDevice.pad ? 80:60)
+            make.horizontalEdges.equalToSuperview().inset(UIDevice.pad ? 120:16)
+            make.height.equalTo(UIDevice.pad ? 74:44)
         }
     }
     func makeLayout() -> UICollectionViewLayout {
-
-        let topSectionItemSize = NSCollectionLayoutSize(widthDimension: .fractionalWidth(view.frame.width), heightDimension: .fractionalHeight(1))
+  
+        let topSectionItemSize = NSCollectionLayoutSize(widthDimension: .absolute(view.frame.width-32),
+                                                        heightDimension: .fractionalHeight(1))
         let topSectionItem = NSCollectionLayoutItem(layoutSize: topSectionItemSize)
         
         let topSectionGroupSize = NSCollectionLayoutSize(widthDimension: .absolute(view.frame.width*CGFloat(onboardingPages.count)), heightDimension: .fractionalHeight(1))

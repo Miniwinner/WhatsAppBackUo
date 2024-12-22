@@ -38,7 +38,7 @@ private extension UniversalFormatView {
     
     func prepareViewSelf() {
         backgroundColor = UIColor(redc: 31, greenc: 26, bluec: 65, alphac: 1)
-        layer.cornerRadius = 32
+        layer.cornerRadius = UIDevice.pad ? 40:32
         clipsToBounds = true
     }
     
@@ -58,7 +58,8 @@ private extension UniversalFormatView {
             addSubview(mediaTypeBtn)
             mediaTypeBtn.snp.makeConstraints { make in
                 make.center.equalToSuperview()
-                make.size.equalTo(62)
+                make.height.equalTo(UIDevice.pad ? 88:52)
+                make.width.equalTo(UIDevice.pad ? 108:64)
             }
             mediaTypeBtn.image = UIImage(named: "video")
            
@@ -66,8 +67,8 @@ private extension UniversalFormatView {
             addSubview(mediaTypeBtn)
             mediaTypeBtn.snp.makeConstraints { make in
                 make.center.equalToSuperview()
-                make.height.equalTo(52)
-                make.width.equalTo(64)
+                make.height.equalTo(UIDevice.pad ? 88:52)
+                make.width.equalTo(UIDevice.pad ? 108:64)
             }
             mediaTypeBtn.image = UIImage(named: "audio")
            

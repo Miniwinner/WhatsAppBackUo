@@ -49,10 +49,12 @@ class LockScreenVC: UIViewController {
     @objc private func doneButtonTapped() {
         if flow {
             guard let text = lockView.textField.text else { return }
-            UserDefaults.standard.setValue(text, forKey: "password")
-            UserDefaults.standard.setValue(true, forKey: "applocked")
-            lockView.textField.resignFirstResponder()
-            navigationController?.popViewController(animated: true)
+            if text == "" {} else {
+                UserDefaults.standard.setValue(text, forKey: "password")
+                UserDefaults.standard.setValue(true, forKey: "applocked")
+                lockView.textField.resignFirstResponder()
+                navigationController?.popViewController(animated: true)
+            }
         } else {
             guard var text = lockView.textField.text else { return }
             if text == UserDefaults.standard.value(forKey: "password") as? String {
@@ -126,12 +128,12 @@ private extension LockScreenVC {
         view.addSubview(backView)
         backView.snp.makeConstraints { make in
             make.top.horizontalEdges.equalToSuperview()
-            make.bottom.equalToSuperview().inset(-60)
+            make.bottom.equalToSuperview().inset(UIDevice.pad ? -80:-60)
         }
         view.addSubview(lockView)
         lockView.snp.makeConstraints { make in
             make.center.equalToSuperview()
-            make.horizontalEdges.equalToSuperview().inset(16)
+            make.horizontalEdges.equalToSuperview().inset(UIDevice.pad ? 60:16)
         }
     }
     
@@ -140,9 +142,9 @@ private extension LockScreenVC {
             topElement.title = "Enable Password"
             view.addSubview(topElement)
             topElement.snp.makeConstraints { make in
-                make.height.equalTo(52)
-                make.horizontalEdges.equalToSuperview().inset(16)
-                make.top.equalToSuperview().inset(56)
+                make.height.equalTo(UIDevice.pad ?  88:52)
+                make.horizontalEdges.equalToSuperview().inset(UIDevice.pad ? 120:16)
+                make.top.equalToSuperview().inset(UIDevice.pad ? 80:56)
             }
         }
     }

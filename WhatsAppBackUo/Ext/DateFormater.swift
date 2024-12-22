@@ -97,3 +97,15 @@ func extractAndFormatDate(from path: String) -> String? {
     }
     return nil
 }
+
+func formattedTime(from seconds: Double) -> String {
+    let formatter = DateComponentsFormatter()
+    formatter.allowedUnits = [.minute, .second]
+    formatter.zeroFormattingBehavior = .pad
+    return formatter.string(from: seconds) ?? "0:00"
+}
+
+
+func formatToSecs(from seconds: Double) {
+    
+}

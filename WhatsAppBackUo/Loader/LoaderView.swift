@@ -10,14 +10,14 @@ final class LoaderView: UIView {
     
     let percentLbl = UILabel() --> {
         $0.textColor = .white
-        $0.font = .custom(type: .glSemiBold, size: 24)
+        $0.font = .custom(type: .glSemiBold, size: UIDevice.pad ? 40:24)
         $0.text = "0%..."
         $0.textAlignment = .left
     }
     
     let loadingLbl = UILabel() --> {
         $0.textColor = .white
-        $0.font = .custom(type: .glSemiBold, size: 24)
+        $0.font = .custom(type: .glSemiBold, size:UIDevice.pad ?40:24)
         $0.text = "Loading"
         $0.textAlignment = .left
     }
@@ -25,45 +25,72 @@ final class LoaderView: UIView {
     let cirlceView = UIView()
     
    
-    override init(frame: CGRect) {
+    init(withLbl:Bool = true) {
         super.init(frame: .zero)
-        prepareSubs()
-        prepareAnimation()
+        prepareSubs(withLbl: withLbl)
+        
+        if !withLbl {
+            loadingLbl.text = "Importing chat..."
+            loadingLbl.textAlignment = .center
+        } else {
+            prepareAnimation()
+        }
     }
     
     required init?(coder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
     }
     
-    func prepareSubs() {
-        addSubview(percentLbl)
-        addSubview(loadingLbl)
-        loadingLbl.snp.makeConstraints { make in
-            make.top.equalToSuperview()
-            make.left.equalToSuperview().inset(10)
-            make.height.equalTo(30)
-            make.width.equalTo(100)
-        }
-        percentLbl.snp.makeConstraints { make in
-            make.left.equalTo(loadingLbl.snp.right)
-            make.right.equalToSuperview()
-            make.top.equalToSuperview()
-            make.height.equalTo(30)
-        }
-        
-        addSubview(cirlceView)
-        cirlceView.snp.makeConstraints { make in
-            make.top.equalTo(percentLbl.snp.bottom).offset(40)
-            make.centerX.equalToSuperview()
-            make.bottom.equalToSuperview()
-            make.size.equalTo(100)
+    func prepareSubs(withLbl: Bool) {
+        if withLbl {
+            addSubview(percentLbl)
+            addSubview(loadingLbl)
+            loadingLbl.snp.makeConstraints { make in
+                make.top.equalToSuperview()
+                make.left.equalToSuperview().inset(UIDevice.pad ?50:10)
+                make.height.equalTo(UIDevice.pad ?40:30)
+                make.width.equalTo(UIDevice.pad ?180:100)
+            }
+            percentLbl.snp.makeConstraints { make in
+                make.left.equalTo(loadingLbl.snp.right)
+                make.right.equalToSuperview()
+                make.top.equalToSuperview()
+                make.height.equalTo(UIDevice.pad ?40:30)
+            }
+            
+            addSubview(cirlceView)
+            cirlceView.snp.makeConstraints { make in
+                make.top.equalTo(percentLbl.snp.bottom).offset(UIDevice.pad ?80:40)
+                make.centerX.equalToSuperview()
+                make.bottom.equalToSuperview()
+                make.size.equalTo(UIDevice.pad ?250:100)
+            }
+        } else {
+            addSubview(loadingLbl)
+            loadingLbl.snp.makeConstraints { make in
+                make.top.equalToSuperview()
+                make.height.equalTo(UIDevice.pad ?40:30)
+                make.horizontalEdges.equalToSuperview()
+            }
+           
+            addSubview(cirlceView)
+            cirlceView.snp.makeConstraints { make in
+                make.top.equalTo(loadingLbl.snp.bottom).offset(UIDevice.pad ?80:40)
+                make.centerX.equalToSuperview()
+                make.bottom.equalToSuperview()
+                make.size.equalTo(UIDevice.pad ?250:100)
+            }
         }
     }
     
-    func prepareAnimation() {
-        let bigCircleRadius: CGFloat = 100/2
-        let bigCircleCenter = CGPoint(x: cirlceView.center.x+50, y: cirlceView.center.y+50)
-        
+    func prepareAnimation(flow: Bool = false) {
+        let bigCircleRadius: CGFloat = UIDevice.pad ? 250/2 : 100/2
+        var bigCircleCenter: CGPoint!
+        if flow {
+            bigCircleCenter = CGPoint(x: cirlceView.center.x - (UIDevice.pad ?115:40), y: cirlceView.center.y - (UIDevice.pad ?155:80))
+        } else {
+            bigCircleCenter = CGPoint(x: cirlceView.center.x + (UIDevice.pad ?125:50), y: cirlceView.center.y + (UIDevice.pad ?125:50))
+        }
         let bigCirclePath = UIBezierPath(
             arcCenter: bigCircleCenter,
             radius: bigCircleRadius,
@@ -73,11 +100,11 @@ final class LoaderView: UIView {
         )
         bigCircleLayer.path = bigCirclePath.cgPath
         bigCircleLayer.strokeColor = UIColor.gray.cgColor
-        bigCircleLayer.lineWidth = 8
+        bigCircleLayer.lineWidth = UIDevice.pad ?16:8
         bigCircleLayer.fillColor = UIColor.clear.cgColor
         cirlceView.layer.addSublayer(bigCircleLayer)
         
-        let smallCircleRadius: CGFloat = 24/2
+        let smallCircleRadius: CGFloat = UIDevice.pad ?40/2:24/2
         
         smallCircleLayer.frame = CGRect(
             x: bigCircleCenter.x - smallCircleRadius,

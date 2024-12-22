@@ -5,15 +5,15 @@ final class CustomSearch: UIView {
    
     let textField = UITextField() --> {
         $0.textColor = .black
-        $0.font = .custom(type: .glBlack, size: 20)
+        $0.font = .custom(type: .glBlack, size: UIDevice.pad ? 40:20)
         $0.attributedPlaceholder = NSAttributedString(string: "Search", attributes: [
                             .foregroundColor: UIColor.black,
-                            .font: UIFont.custom(type: .glBlack, size: 20)])
+                            .font: UIFont.custom(type: .glBlack, size: UIDevice.pad ? 40:20)])
     }
     
     let searchImage: UIImageView = .init(image: UIImage(named: "search"))
-    let clearBtn = UIButton() --> {
-        $0.setImage(UIImage(named: "close"), for: .normal)
+    let clearBtn = BtnMine() --> {
+        $0.imageViewMine.image = UIImage(named: "close")
         $0.isHidden = true
 
     }
@@ -64,7 +64,7 @@ private extension CustomSearch {
     }
     
     func prepareAll() {
-        layer.cornerRadius = 22
+        layer.cornerRadius = UIDevice.pad ? 37:22
         backgroundColor = .white
         textField.delegate = self
         textField.addTarget(self, action: #selector(textChangedM), for: .editingChanged)
@@ -75,20 +75,20 @@ private extension CustomSearch {
         addSubview(searchImage)
         searchImage.snp.makeConstraints { make in
             make.centerY.equalToSuperview()
-            make.size.equalTo(24)
-            make.left.equalToSuperview().inset(10)
+            make.size.equalTo(UIDevice.pad ? 44:24)
+            make.left.equalToSuperview().inset(UIDevice.pad ? 20:10)
         }
         addSubview(clearBtn)
         clearBtn.snp.makeConstraints { make in
-            make.right.equalToSuperview().inset(15)
+            make.right.equalToSuperview().inset(UIDevice.pad ? 25:15)
             make.centerY.equalToSuperview()
-            make.size.equalTo(24)
+            make.size.equalTo(UIDevice.pad ? 44:24)
         }
         addSubview(textField)
         textField.snp.makeConstraints { make in
-            make.left.equalTo(searchImage.snp.right).offset(5)
-            make.right.equalTo(clearBtn.snp.left).offset(5)
-            make.verticalEdges.equalToSuperview().inset(2)
+            make.left.equalTo(searchImage.snp.right).offset(UIDevice.pad ? 15:5)
+            make.right.equalTo(clearBtn.snp.left).offset(UIDevice.pad ? 15:5)
+            make.verticalEdges.equalToSuperview().inset(UIDevice.pad ? 10:2)
         }
     }
     

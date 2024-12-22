@@ -5,7 +5,7 @@ class LockTab: UIView {
     
     let textHolder = UILabel() --> {
         $0.textColor = .white
-        $0.font = .custom(type: .glBold, size: 35)
+        $0.font = .custom(type: .glBold, size: UIDevice.pad ? 42:35)
         $0.text = ""
         $0.textAlignment = .center
     }
@@ -40,7 +40,7 @@ class LockTab: UIView {
         textHolder.snp.makeConstraints { make in
             make.top.equalToSuperview()
             make.horizontalEdges.equalToSuperview()
-            make.height.equalTo(40)
+            make.height.equalTo(UIDevice.pad ? 44:40)
         }
         addSubview(bottomLine)
         bottomLine.snp.makeConstraints { make in
@@ -48,7 +48,7 @@ class LockTab: UIView {
             make.bottom.equalToSuperview()
             make.horizontalEdges.equalToSuperview()
             make.height.equalTo(4)
-            make.width.equalTo(48)
+            make.width.equalTo(UIDevice.pad ? 80:48)
         }
     }
     

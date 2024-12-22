@@ -108,7 +108,7 @@ private extension LoaderVC {
         view.addSubview(loaderView)
         loaderView.snp.makeConstraints { make in
             make.center.equalToSuperview()
-            make.width.equalTo(190)
+            make.width.equalTo(UIDevice.pad ?400:190)
         }
         view.addSubview(noReach)
         noReach.snp.makeConstraints { make in

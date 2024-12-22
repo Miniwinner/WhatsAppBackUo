@@ -24,10 +24,9 @@ final class BoardCell: UICollectionViewCell {
         view = BoardView(type: type, model: model)
         addSubview(view)
         view.snp.makeConstraints { make in
-            make.horizontalEdges.equalToSuperview().inset(16)
-            make.center.equalToSuperview()
+            make.horizontalEdges.equalToSuperview().inset(UIDevice.pad ? 120:16)
+            make.verticalEdges.equalToSuperview()
         }
-        layoutIfNeeded()
     }
     
     

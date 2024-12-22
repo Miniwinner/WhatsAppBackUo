@@ -1,0 +1,6 @@
+framework module Pods_WhatsAppBackUo {
+  umbrella header "Pods-WhatsAppBackUo-umbrella.h"
+
+  export *
+  module * { export * }
+}

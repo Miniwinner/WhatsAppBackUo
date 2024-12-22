@@ -7,11 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7401C6FA2D0877390048A2B2 /* ImportChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7401C6F92D0877390048A2B2 /* ImportChatVC.swift */; };
-		7401C6FD2D087D3C0048A2B2 /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 7401C6FC2D087D3C0048A2B2 /* ZIPFoundation */; };
+		03CD144B6581678FF6742F6D /* Pods_WhatsAppBackUoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B90905559B8D9ECA0CDEBCEE /* Pods_WhatsAppBackUoTests.framework */; };
 		7401C7002D087E980048A2B2 /* NoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7401C6FF2D087E980048A2B2 /* NoContentView.swift */; };
 		7401C7032D0886FA0048A2B2 /* ChatsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7401C7022D0886FA0048A2B2 /* ChatsPresenter.swift */; };
-		7401C7052D0887250048A2B2 /* ChatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7401C7042D0887250048A2B2 /* ChatModel.swift */; };
 		7401C7072D08BDC40048A2B2 /* ChatList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7401C7062D08BDC40048A2B2 /* ChatList.swift */; };
 		7401C70A2D08BE920048A2B2 /* ChatListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7401C7092D08BE920048A2B2 /* ChatListCell.swift */; };
 		7401C70C2D08BEC80048A2B2 /* ExtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7401C70B2D08BEC80048A2B2 /* ExtCell.swift */; };
@@ -33,9 +31,6 @@
 		7401C77D2D09DA4E0048A2B2 /* GalleryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7401C77C2D09DA4E0048A2B2 /* GalleryPresenter.swift */; };
 		742E00092CFF98FC00DE61C9 /* VcWithBackGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00082CFF98FC00DE61C9 /* VcWithBackGround.swift */; };
 		742E000B2CFF994800DE61C9 /* ExtViewCreator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E000A2CFF994800DE61C9 /* ExtViewCreator.swift */; };
-		742E000E2CFF99CD00DE61C9 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 742E000D2CFF99CD00DE61C9 /* SnapKit */; };
-		742E00102CFF9A0800DE61C9 /* WhatsTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E000F2CFF9A0800DE61C9 /* WhatsTabBar.swift */; };
-		742E00122CFF9A5C00DE61C9 /* WhatsTabModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00112CFF9A5C00DE61C9 /* WhatsTabModels.swift */; };
 		742E00152CFF9A9500DE61C9 /* LocFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00142CFF9A9500DE61C9 /* LocFunc.swift */; };
 		742E00172CFF9C1E00DE61C9 /* ChatsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00162CFF9C1E00DE61C9 /* ChatsVC.swift */; };
 		742E00192CFF9C2900DE61C9 /* GalleryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00182CFF9C2900DE61C9 /* GalleryVC.swift */; };
@@ -55,10 +50,7 @@
 		742E00362CFF9CF300DE61C9 /* ExtFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00352CFF9CF300DE61C9 /* ExtFont.swift */; };
 		742E00382CFFA00300DE61C9 /* Coordiantor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00372CFFA00300DE61C9 /* Coordiantor.swift */; };
 		742E003A2CFFA1D900DE61C9 /* ExtColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00392CFFA1D900DE61C9 /* ExtColors.swift */; };
-		742E003C2CFFA46300DE61C9 /* CustomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E003B2CFFA46300DE61C9 /* CustomTab.swift */; };
 		742E003E2CFFAEB000DE61C9 /* TopElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E003D2CFFAEB000DE61C9 /* TopElement.swift */; };
-		742E00412CFFB32E00DE61C9 /* BtnTop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00402CFFB32E00DE61C9 /* BtnTop.swift */; };
-		742E00442CFFBCC700DE61C9 /* QrViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00432CFFBCC700DE61C9 /* QrViewController.swift */; };
 		742E00462CFFBDA500DE61C9 /* ChatsRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00452CFFBDA500DE61C9 /* ChatsRouter.swift */; };
 		742E00482CFFBFE800DE61C9 /* LoaderVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00472CFFBFE800DE61C9 /* LoaderVC.swift */; };
 		742E004A2CFFC10000DE61C9 /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742E00492CFFC10000DE61C9 /* LoaderView.swift */; };
@@ -69,6 +61,34 @@
 		742EFFD62CFF958900DE61C9 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 742EFFD52CFF958900DE61C9 /* Base */; };
 		7448BF392D071D500037350B /* LockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448BF382D071D500037350B /* LockView.swift */; };
 		7448BF3B2D072E770037350B /* LockTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7448BF3A2D072E770037350B /* LockTab.swift */; };
+		7462F72A2D174715006ADF8D /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 7462F7292D174715006ADF8D /* SnapKit */; };
+		7462F72D2D174731006ADF8D /* ZIPFoundation in Frameworks */ = {isa = PBXBuildFile; productRef = 7462F72C2D174731006ADF8D /* ZIPFoundation */; };
+		7462F73F2D174D36006ADF8D /* Pods_WhatsAppBackUo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F73E2D174D36006ADF8D /* Pods_WhatsAppBackUo.framework */; };
+		7462F7462D174FD4006ADF8D /* ffmpegkit.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F7312D174B41006ADF8D /* ffmpegkit.xcframework */; };
+		7462F7472D174FD4006ADF8D /* ffmpegkit.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F7312D174B41006ADF8D /* ffmpegkit.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7462F74A2D175224006ADF8D /* libavcodec.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F7492D175224006ADF8D /* libavcodec.xcframework */; };
+		7462F74B2D175224006ADF8D /* libavcodec.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F7492D175224006ADF8D /* libavcodec.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7462F7522D175240006ADF8D /* libavdevice.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F74C2D175240006ADF8D /* libavdevice.xcframework */; };
+		7462F7532D175240006ADF8D /* libavdevice.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F74C2D175240006ADF8D /* libavdevice.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7462F7542D175240006ADF8D /* libavfilter.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F74D2D175240006ADF8D /* libavfilter.xcframework */; };
+		7462F7552D175240006ADF8D /* libavfilter.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F74D2D175240006ADF8D /* libavfilter.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7462F7562D175240006ADF8D /* libavformat.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F74E2D175240006ADF8D /* libavformat.xcframework */; };
+		7462F7572D175240006ADF8D /* libavformat.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F74E2D175240006ADF8D /* libavformat.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7462F7582D175240006ADF8D /* libavutil.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F74F2D175240006ADF8D /* libavutil.xcframework */; };
+		7462F7592D175240006ADF8D /* libavutil.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F74F2D175240006ADF8D /* libavutil.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7462F75A2D175240006ADF8D /* libswresample.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F7502D175240006ADF8D /* libswresample.xcframework */; };
+		7462F75B2D175240006ADF8D /* libswresample.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F7502D175240006ADF8D /* libswresample.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7462F75C2D175240006ADF8D /* libswscale.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F7512D175240006ADF8D /* libswscale.xcframework */; };
+		7462F75D2D175240006ADF8D /* libswscale.xcframework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 7462F7512D175240006ADF8D /* libswscale.xcframework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		7462F75F2D185C89006ADF8D /* ExtDeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462F75E2D185C89006ADF8D /* ExtDeviceType.swift */; };
+		7462F7612D18619C006ADF8D /* BtnMine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462F7602D18619C006ADF8D /* BtnMine.swift */; };
+		7462F7652D187608006ADF8D /* QrVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462F7642D187607006ADF8D /* QrVC.swift */; };
+		7462F7672D18794D006ADF8D /* UserScript.js in Resources */ = {isa = PBXBuildFile; fileRef = 7462F7662D18794D006ADF8D /* UserScript.js */; };
+		7462F76C2D18B2C8006ADF8D /* CustomTabItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462F7682D18B2C8006ADF8D /* CustomTabItemView.swift */; };
+		7462F76D2D18B2C8006ADF8D /* CustomTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462F7692D18B2C8006ADF8D /* CustomTabBarVC.swift */; };
+		7462F76E2D18B2C8006ADF8D /* CustomTabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462F76A2D18B2C8006ADF8D /* CustomTabBarItem.swift */; };
+		7462F76F2D18B2C8006ADF8D /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462F76B2D18B2C8006ADF8D /* CustomTabBar.swift */; };
+		7462F7712D18B337006ADF8D /* ExtTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7462F7702D18B336006ADF8D /* ExtTabBar.swift */; };
 		747A0B212D1030A40049F8B7 /* SceneManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A0B202D1030A40049F8B7 /* SceneManager.swift */; };
 		747A0B242D10398F0049F8B7 /* ChatMediaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A0B232D10398F0049F8B7 /* ChatMediaVC.swift */; };
 		747A0B262D103A150049F8B7 /* ChatMediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747A0B252D103A150049F8B7 /* ChatMediaCell.swift */; };
@@ -87,7 +107,6 @@
 		749BAF7A2D11ECF100C015F4 /* BoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAF792D11ECF100C015F4 /* BoardView.swift */; };
 		749BAF7D2D12235E00C015F4 /* MediaHorizontalCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAF7C2D12235E00C015F4 /* MediaHorizontalCollection.swift */; };
 		749BAF7F2D12236F00C015F4 /* MediaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAF7E2D12236F00C015F4 /* MediaCell.swift */; };
-		749BAF812D12265300C015F4 /* MediaVCUILayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAF802D12265300C015F4 /* MediaVCUILayout.swift */; };
 		749BAF832D12CB1800C015F4 /* DocumentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAF822D12CB1800C015F4 /* DocumentsModel.swift */; };
 		749BAF852D12CB2800C015F4 /* GalleryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAF842D12CB2800C015F4 /* GalleryModel.swift */; };
 		749BAF872D12CEE600C015F4 /* MediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAF862D12CEE600C015F4 /* MediaView.swift */; };
@@ -101,7 +120,12 @@
 		749BAFA22D1439B800C015F4 /* GoogleDriveAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAFA12D1439B800C015F4 /* GoogleDriveAPI.swift */; };
 		749BAFA72D14450200C015F4 /* NoReachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAFA62D14450200C015F4 /* NoReachView.swift */; };
 		749BAFA92D1447A100C015F4 /* InternetChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAFA82D1447A100C015F4 /* InternetChecker.swift */; };
+		749BAFAB2D14A49600C015F4 /* TImeLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAFAA2D14A49600C015F4 /* TImeLineView.swift */; };
+		749BAFAD2D14A4BA00C015F4 /* BottomBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAFAC2D14A4BA00C015F4 /* BottomBarView.swift */; };
+		749BAFAF2D15BD3C00C015F4 /* FullScreenVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAFAE2D15BD3C00C015F4 /* FullScreenVideo.swift */; };
+		749BAFBA2D16FCAB00C015F4 /* MediaAudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 749BAFB92D16FCAB00C015F4 /* MediaAudioPlayer.swift */; };
 		74A8B4EB2D0F111A00AAFE74 /* SettingsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A8B4EA2D0F111A00AAFE74 /* SettingsTable.swift */; };
+		7E267A0D808F95DCAC32F02B /* Pods_WhatsAppBackUo_WhatsAppBackUoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD5CC74311BCA0C74BD387BC /* Pods_WhatsAppBackUo_WhatsAppBackUoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -121,11 +145,34 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		7462F7482D174FD4006ADF8D /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				7462F7472D174FD4006ADF8D /* ffmpegkit.xcframework in Embed Frameworks */,
+				7462F7532D175240006ADF8D /* libavdevice.xcframework in Embed Frameworks */,
+				7462F7552D175240006ADF8D /* libavfilter.xcframework in Embed Frameworks */,
+				7462F74B2D175224006ADF8D /* libavcodec.xcframework in Embed Frameworks */,
+				7462F7592D175240006ADF8D /* libavutil.xcframework in Embed Frameworks */,
+				7462F7572D175240006ADF8D /* libavformat.xcframework in Embed Frameworks */,
+				7462F75D2D175240006ADF8D /* libswscale.xcframework in Embed Frameworks */,
+				7462F75B2D175240006ADF8D /* libswresample.xcframework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		7401C6F92D0877390048A2B2 /* ImportChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportChatVC.swift; sourceTree = "<group>"; };
+		038E2E8FFE74AD311D686AAA /* Pods-WhatsAppBackUo-WhatsAppBackUoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsAppBackUo-WhatsAppBackUoUITests.release.xcconfig"; path = "Target Support Files/Pods-WhatsAppBackUo-WhatsAppBackUoUITests/Pods-WhatsAppBackUo-WhatsAppBackUoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3BA5C8F1E34C3FD6D3CD53D0 /* Pods-WhatsAppBackUoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsAppBackUoTests.debug.xcconfig"; path = "Target Support Files/Pods-WhatsAppBackUoTests/Pods-WhatsAppBackUoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		44A113E911A8FB38D6CF1AEA /* Pods_WhatsAppBackUo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsAppBackUo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5632B2DB2478C765F978BD64 /* Pods-WhatsAppBackUo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsAppBackUo.release.xcconfig"; path = "Target Support Files/Pods-WhatsAppBackUo/Pods-WhatsAppBackUo.release.xcconfig"; sourceTree = "<group>"; };
 		7401C6FF2D087E980048A2B2 /* NoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoContentView.swift; sourceTree = "<group>"; };
 		7401C7022D0886FA0048A2B2 /* ChatsPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsPresenter.swift; sourceTree = "<group>"; };
-		7401C7042D0887250048A2B2 /* ChatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatModel.swift; sourceTree = "<group>"; };
 		7401C7062D08BDC40048A2B2 /* ChatList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatList.swift; sourceTree = "<group>"; };
 		7401C7092D08BE920048A2B2 /* ChatListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatListCell.swift; sourceTree = "<group>"; };
 		7401C70B2D08BEC80048A2B2 /* ExtCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtCell.swift; sourceTree = "<group>"; };
@@ -147,8 +194,6 @@
 		7401C77C2D09DA4E0048A2B2 /* GalleryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryPresenter.swift; sourceTree = "<group>"; };
 		742E00082CFF98FC00DE61C9 /* VcWithBackGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VcWithBackGround.swift; sourceTree = "<group>"; };
 		742E000A2CFF994800DE61C9 /* ExtViewCreator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtViewCreator.swift; sourceTree = "<group>"; };
-		742E000F2CFF9A0800DE61C9 /* WhatsTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsTabBar.swift; sourceTree = "<group>"; };
-		742E00112CFF9A5C00DE61C9 /* WhatsTabModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhatsTabModels.swift; sourceTree = "<group>"; };
 		742E00142CFF9A9500DE61C9 /* LocFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocFunc.swift; sourceTree = "<group>"; };
 		742E00162CFF9C1E00DE61C9 /* ChatsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsVC.swift; sourceTree = "<group>"; };
 		742E00182CFF9C2900DE61C9 /* GalleryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryVC.swift; sourceTree = "<group>"; };
@@ -168,10 +213,7 @@
 		742E00352CFF9CF300DE61C9 /* ExtFont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtFont.swift; sourceTree = "<group>"; };
 		742E00372CFFA00300DE61C9 /* Coordiantor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordiantor.swift; sourceTree = "<group>"; };
 		742E00392CFFA1D900DE61C9 /* ExtColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtColors.swift; sourceTree = "<group>"; };
-		742E003B2CFFA46300DE61C9 /* CustomTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTab.swift; sourceTree = "<group>"; };
 		742E003D2CFFAEB000DE61C9 /* TopElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopElement.swift; sourceTree = "<group>"; };
-		742E00402CFFB32E00DE61C9 /* BtnTop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnTop.swift; sourceTree = "<group>"; };
-		742E00432CFFBCC700DE61C9 /* QrViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrViewController.swift; sourceTree = "<group>"; };
 		742E00452CFFBDA500DE61C9 /* ChatsRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatsRouter.swift; sourceTree = "<group>"; };
 		742E00472CFFBFE800DE61C9 /* LoaderVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderVC.swift; sourceTree = "<group>"; };
 		742E00492CFFC10000DE61C9 /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
@@ -186,6 +228,26 @@
 		742EFFE62CFF958900DE61C9 /* WhatsAppBackUoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WhatsAppBackUoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7448BF382D071D500037350B /* LockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockView.swift; sourceTree = "<group>"; };
 		7448BF3A2D072E770037350B /* LockTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockTab.swift; sourceTree = "<group>"; };
+		7462F7312D174B41006ADF8D /* ffmpegkit.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = ffmpegkit.xcframework; path = "Pods/ffmpeg-kit-ios-full/ffmpegkit.xcframework"; sourceTree = "<group>"; };
+		7462F7372D174B86006ADF8D /* Pods_WhatsAppBackUo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_WhatsAppBackUo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7462F73B2D174BF7006ADF8D /* Pods_WhatsAppBackUo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_WhatsAppBackUo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7462F73E2D174D36006ADF8D /* Pods_WhatsAppBackUo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Pods_WhatsAppBackUo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7462F7492D175224006ADF8D /* libavcodec.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libavcodec.xcframework; path = "Pods/ffmpeg-kit-ios-full/libavcodec.xcframework"; sourceTree = "<group>"; };
+		7462F74C2D175240006ADF8D /* libavdevice.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libavdevice.xcframework; path = "Pods/ffmpeg-kit-ios-full/libavdevice.xcframework"; sourceTree = "<group>"; };
+		7462F74D2D175240006ADF8D /* libavfilter.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libavfilter.xcframework; path = "Pods/ffmpeg-kit-ios-full/libavfilter.xcframework"; sourceTree = "<group>"; };
+		7462F74E2D175240006ADF8D /* libavformat.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libavformat.xcframework; path = "Pods/ffmpeg-kit-ios-full/libavformat.xcframework"; sourceTree = "<group>"; };
+		7462F74F2D175240006ADF8D /* libavutil.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libavutil.xcframework; path = "Pods/ffmpeg-kit-ios-full/libavutil.xcframework"; sourceTree = "<group>"; };
+		7462F7502D175240006ADF8D /* libswresample.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libswresample.xcframework; path = "Pods/ffmpeg-kit-ios-full/libswresample.xcframework"; sourceTree = "<group>"; };
+		7462F7512D175240006ADF8D /* libswscale.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = libswscale.xcframework; path = "Pods/ffmpeg-kit-ios-full/libswscale.xcframework"; sourceTree = "<group>"; };
+		7462F75E2D185C89006ADF8D /* ExtDeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtDeviceType.swift; sourceTree = "<group>"; };
+		7462F7602D18619C006ADF8D /* BtnMine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BtnMine.swift; sourceTree = "<group>"; };
+		7462F7642D187607006ADF8D /* QrVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QrVC.swift; sourceTree = "<group>"; };
+		7462F7662D18794D006ADF8D /* UserScript.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = UserScript.js; sourceTree = "<group>"; };
+		7462F7682D18B2C8006ADF8D /* CustomTabItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabItemView.swift; sourceTree = "<group>"; };
+		7462F7692D18B2C8006ADF8D /* CustomTabBarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarVC.swift; sourceTree = "<group>"; };
+		7462F76A2D18B2C8006ADF8D /* CustomTabBarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBarItem.swift; sourceTree = "<group>"; };
+		7462F76B2D18B2C8006ADF8D /* CustomTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		7462F7702D18B336006ADF8D /* ExtTabBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtTabBar.swift; sourceTree = "<group>"; };
 		747A0B202D1030A40049F8B7 /* SceneManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneManager.swift; sourceTree = "<group>"; };
 		747A0B232D10398F0049F8B7 /* ChatMediaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMediaVC.swift; sourceTree = "<group>"; };
 		747A0B252D103A150049F8B7 /* ChatMediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMediaCell.swift; sourceTree = "<group>"; };
@@ -204,7 +266,6 @@
 		749BAF792D11ECF100C015F4 /* BoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoardView.swift; sourceTree = "<group>"; };
 		749BAF7C2D12235E00C015F4 /* MediaHorizontalCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaHorizontalCollection.swift; sourceTree = "<group>"; };
 		749BAF7E2D12236F00C015F4 /* MediaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaCell.swift; sourceTree = "<group>"; };
-		749BAF802D12265300C015F4 /* MediaVCUILayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaVCUILayout.swift; sourceTree = "<group>"; };
 		749BAF822D12CB1800C015F4 /* DocumentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsModel.swift; sourceTree = "<group>"; };
 		749BAF842D12CB2800C015F4 /* GalleryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryModel.swift; sourceTree = "<group>"; };
 		749BAF862D12CEE600C015F4 /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
@@ -218,7 +279,16 @@
 		749BAFA12D1439B800C015F4 /* GoogleDriveAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleDriveAPI.swift; sourceTree = "<group>"; };
 		749BAFA62D14450200C015F4 /* NoReachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoReachView.swift; sourceTree = "<group>"; };
 		749BAFA82D1447A100C015F4 /* InternetChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternetChecker.swift; sourceTree = "<group>"; };
+		749BAFAA2D14A49600C015F4 /* TImeLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TImeLineView.swift; sourceTree = "<group>"; };
+		749BAFAC2D14A4BA00C015F4 /* BottomBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomBarView.swift; sourceTree = "<group>"; };
+		749BAFAE2D15BD3C00C015F4 /* FullScreenVideo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullScreenVideo.swift; sourceTree = "<group>"; };
+		749BAFB92D16FCAB00C015F4 /* MediaAudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaAudioPlayer.swift; sourceTree = "<group>"; };
 		74A8B4EA2D0F111A00AAFE74 /* SettingsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTable.swift; sourceTree = "<group>"; };
+		B2D122F6CF0B3AB77654E0A1 /* Pods-WhatsAppBackUo-WhatsAppBackUoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsAppBackUo-WhatsAppBackUoUITests.debug.xcconfig"; path = "Target Support Files/Pods-WhatsAppBackUo-WhatsAppBackUoUITests/Pods-WhatsAppBackUo-WhatsAppBackUoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B90905559B8D9ECA0CDEBCEE /* Pods_WhatsAppBackUoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsAppBackUoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C0B747A22F15612EC4984030 /* Pods-WhatsAppBackUo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsAppBackUo.debug.xcconfig"; path = "Target Support Files/Pods-WhatsAppBackUo/Pods-WhatsAppBackUo.debug.xcconfig"; sourceTree = "<group>"; };
+		CD5CC74311BCA0C74BD387BC /* Pods_WhatsAppBackUo_WhatsAppBackUoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WhatsAppBackUo_WhatsAppBackUoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F77021DD3CF7F45E0B666D82 /* Pods-WhatsAppBackUoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WhatsAppBackUoTests.release.xcconfig"; path = "Target Support Files/Pods-WhatsAppBackUoTests/Pods-WhatsAppBackUoTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -226,8 +296,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				742E000E2CFF99CD00DE61C9 /* SnapKit in Frameworks */,
-				7401C6FD2D087D3C0048A2B2 /* ZIPFoundation in Frameworks */,
+				7462F75C2D175240006ADF8D /* libswscale.xcframework in Frameworks */,
+				7462F73F2D174D36006ADF8D /* Pods_WhatsAppBackUo.framework in Frameworks */,
+				7462F7542D175240006ADF8D /* libavfilter.xcframework in Frameworks */,
+				7462F74A2D175224006ADF8D /* libavcodec.xcframework in Frameworks */,
+				7462F7462D174FD4006ADF8D /* ffmpegkit.xcframework in Frameworks */,
+				7462F7582D175240006ADF8D /* libavutil.xcframework in Frameworks */,
+				7462F72A2D174715006ADF8D /* SnapKit in Frameworks */,
+				7462F75A2D175240006ADF8D /* libswresample.xcframework in Frameworks */,
+				7462F7562D175240006ADF8D /* libavformat.xcframework in Frameworks */,
+				7462F7522D175240006ADF8D /* libavdevice.xcframework in Frameworks */,
+				7462F72D2D174731006ADF8D /* ZIPFoundation in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -235,6 +314,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03CD144B6581678FF6742F6D /* Pods_WhatsAppBackUoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,20 +322,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E267A0D808F95DCAC32F02B /* Pods_WhatsAppBackUo_WhatsAppBackUoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7401C6F82D0877220048A2B2 /* ImportChat */ = {
-			isa = PBXGroup;
-			children = (
-				7401C6F92D0877390048A2B2 /* ImportChatVC.swift */,
-			);
-			path = ImportChat;
-			sourceTree = "<group>";
-		};
 		7401C6FE2D087E7F0048A2B2 /* Chats */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,7 +346,6 @@
 			children = (
 				7401C7082D08BE790048A2B2 /* ChatCollection */,
 				7401C6FF2D087E980048A2B2 /* NoContentView.swift */,
-				7401C7042D0887250048A2B2 /* ChatModel.swift */,
 			);
 			path = ChatViews;
 			sourceTree = "<group>";
@@ -332,9 +404,10 @@
 		742E00002CFF97F900DE61C9 /* Tab */ = {
 			isa = PBXGroup;
 			children = (
-				742E000F2CFF9A0800DE61C9 /* WhatsTabBar.swift */,
-				742E003B2CFFA46300DE61C9 /* CustomTab.swift */,
-				742E00112CFF9A5C00DE61C9 /* WhatsTabModels.swift */,
+				7462F76B2D18B2C8006ADF8D /* CustomTabBar.swift */,
+				7462F76A2D18B2C8006ADF8D /* CustomTabBarItem.swift */,
+				7462F7692D18B2C8006ADF8D /* CustomTabBarVC.swift */,
+				7462F7682D18B2C8006ADF8D /* CustomTabItemView.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -344,7 +417,6 @@
 			children = (
 				7401C76C2D08F2DB0048A2B2 /* Dialogue */,
 				7401C6FE2D087E7F0048A2B2 /* Chats */,
-				7401C6F82D0877220048A2B2 /* ImportChat */,
 				742E00422CFFBC9D00DE61C9 /* QRScreen */,
 			);
 			path = Chats;
@@ -367,7 +439,7 @@
 		742E00032CFF981600DE61C9 /* Documents */ = {
 			isa = PBXGroup;
 			children = (
-				749BAF942D137D7F00C015F4 /* Views */,
+				749BAF942D137D7F00C015F4 /* Subviews */,
 				742E001A2CFF9C3500DE61C9 /* DocumentsVC.swift */,
 				749BAF6A2D1182C000C015F4 /* DocumentsPresenter.swift */,
 				749BAF6C2D1182C900C015F4 /* DocumentsRouter.swift */,
@@ -392,6 +464,7 @@
 		742E00052CFF988200DE61C9 /* Ext */ = {
 			isa = PBXGroup;
 			children = (
+				7462F7702D18B336006ADF8D /* ExtTabBar.swift */,
 				742E000A2CFF994800DE61C9 /* ExtViewCreator.swift */,
 				742E00352CFF9CF300DE61C9 /* ExtFont.swift */,
 				742E00392CFFA1D900DE61C9 /* ExtColors.swift */,
@@ -399,6 +472,7 @@
 				7401C76A2D08EEA30048A2B2 /* ExtView.swift */,
 				7401C76F2D08FBFC0048A2B2 /* DateFormater.swift */,
 				749BAF682D1180E000C015F4 /* ExtNotification.swift */,
+				7462F75E2D185C89006ADF8D /* ExtDeviceType.swift */,
 			);
 			path = Ext;
 			sourceTree = "<group>";
@@ -409,6 +483,7 @@
 				742E003F2CFFB31500DE61C9 /* TopElement */,
 				742E00082CFF98FC00DE61C9 /* VcWithBackGround.swift */,
 				747A0B272D103B150049F8B7 /* UniversalFormatView.swift */,
+				7462F7602D18619C006ADF8D /* BtnMine.swift */,
 			);
 			path = CustomViews;
 			sourceTree = "<group>";
@@ -444,7 +519,6 @@
 			isa = PBXGroup;
 			children = (
 				742E003D2CFFAEB000DE61C9 /* TopElement.swift */,
-				742E00402CFFB32E00DE61C9 /* BtnTop.swift */,
 				749BAF8C2D13445200C015F4 /* CustomSearch.swift */,
 			);
 			path = TopElement;
@@ -453,7 +527,7 @@
 		742E00422CFFBC9D00DE61C9 /* QRScreen */ = {
 			isa = PBXGroup;
 			children = (
-				742E00432CFFBCC700DE61C9 /* QrViewController.swift */,
+				7462F7642D187607006ADF8D /* QrVC.swift */,
 			);
 			path = QRScreen;
 			sourceTree = "<group>";
@@ -463,6 +537,8 @@
 			children = (
 				742EFFC82CFF958800DE61C9 /* WhatsAppBackUo */,
 				742EFFC72CFF958800DE61C9 /* Products */,
+				DB55A50DBB4723149ED3B5B5 /* Pods */,
+				9266A0DC0C7B730DDBAA2165 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -482,6 +558,7 @@
 				742E00132CFF9A8700DE61C9 /* Localization */,
 				742E00062CFF988700DE61C9 /* CustomViews */,
 				742E00052CFF988200DE61C9 /* Ext */,
+				742EFFFF2CFF97F300DE61C9 /* Flow */,
 				742EFFFE2CFF97D500DE61C9 /* TabBar */,
 				742EFFFD2CFF97B300DE61C9 /* Obnboarding */,
 				742EFFFC2CFF979B00DE61C9 /* LockScreen */,
@@ -495,6 +572,7 @@
 		742EFFF92CFF95D400DE61C9 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				7462F7662D18794D006ADF8D /* UserScript.js */,
 				742E001E2CFF9CC900DE61C9 /* Fonts */,
 				742EFFD22CFF958900DE61C9 /* Assets.xcassets */,
 				742EFFD42CFF958900DE61C9 /* LaunchScreen.storyboard */,
@@ -551,7 +629,6 @@
 			isa = PBXGroup;
 			children = (
 				742E00002CFF97F900DE61C9 /* Tab */,
-				742EFFFF2CFF97F300DE61C9 /* Flow */,
 			);
 			path = TabBar;
 			sourceTree = "<group>";
@@ -582,7 +659,6 @@
 				749BAF7B2D12233B00C015F4 /* MediaCollection */,
 				747A0B2C2D10AAF60049F8B7 /* MediaVC.swift */,
 				747A0B2E2D10AE310049F8B7 /* MediaPlayerView.swift */,
-				749BAF802D12265300C015F4 /* MediaVCUILayout.swift */,
 			);
 			path = MediaVC;
 			sourceTree = "<group>";
@@ -593,6 +669,7 @@
 				749BAF7C2D12235E00C015F4 /* MediaHorizontalCollection.swift */,
 				749BAF7E2D12236F00C015F4 /* MediaCell.swift */,
 				749BAF862D12CEE600C015F4 /* MediaView.swift */,
+				749BAFB92D16FCAB00C015F4 /* MediaAudioPlayer.swift */,
 			);
 			path = MediaCollection;
 			sourceTree = "<group>";
@@ -614,13 +691,66 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		749BAF942D137D7F00C015F4 /* Views */ = {
+		749BAF942D137D7F00C015F4 /* Subviews */ = {
 			isa = PBXGroup;
 			children = (
-				749BAF972D137DBC00C015F4 /* DocsCollectionCell.swift */,
+				749BAFB12D15D17A00C015F4 /* Views */,
+				749BAFB02D15D17100C015F4 /* Screens */,
+			);
+			path = Subviews;
+			sourceTree = "<group>";
+		};
+		749BAFB02D15D17100C015F4 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
 				749BAF992D1398FB00C015F4 /* DocsSoloVC.swift */,
+				749BAFAE2D15BD3C00C015F4 /* FullScreenVideo.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		749BAFB12D15D17A00C015F4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				749BAFAA2D14A49600C015F4 /* TImeLineView.swift */,
+				749BAF972D137DBC00C015F4 /* DocsCollectionCell.swift */,
+				749BAFAC2D14A4BA00C015F4 /* BottomBarView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		9266A0DC0C7B730DDBAA2165 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7462F74C2D175240006ADF8D /* libavdevice.xcframework */,
+				7462F74D2D175240006ADF8D /* libavfilter.xcframework */,
+				7462F74E2D175240006ADF8D /* libavformat.xcframework */,
+				7462F74F2D175240006ADF8D /* libavutil.xcframework */,
+				7462F7502D175240006ADF8D /* libswresample.xcframework */,
+				7462F7512D175240006ADF8D /* libswscale.xcframework */,
+				7462F7492D175224006ADF8D /* libavcodec.xcframework */,
+				7462F73E2D174D36006ADF8D /* Pods_WhatsAppBackUo.framework */,
+				7462F73B2D174BF7006ADF8D /* Pods_WhatsAppBackUo.framework */,
+				7462F7372D174B86006ADF8D /* Pods_WhatsAppBackUo.framework */,
+				7462F7312D174B41006ADF8D /* ffmpegkit.xcframework */,
+				44A113E911A8FB38D6CF1AEA /* Pods_WhatsAppBackUo.framework */,
+				CD5CC74311BCA0C74BD387BC /* Pods_WhatsAppBackUo_WhatsAppBackUoUITests.framework */,
+				B90905559B8D9ECA0CDEBCEE /* Pods_WhatsAppBackUoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB55A50DBB4723149ED3B5B5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C0B747A22F15612EC4984030 /* Pods-WhatsAppBackUo.debug.xcconfig */,
+				5632B2DB2478C765F978BD64 /* Pods-WhatsAppBackUo.release.xcconfig */,
+				B2D122F6CF0B3AB77654E0A1 /* Pods-WhatsAppBackUo-WhatsAppBackUoUITests.debug.xcconfig */,
+				038E2E8FFE74AD311D686AAA /* Pods-WhatsAppBackUo-WhatsAppBackUoUITests.release.xcconfig */,
+				3BA5C8F1E34C3FD6D3CD53D0 /* Pods-WhatsAppBackUoTests.debug.xcconfig */,
+				F77021DD3CF7F45E0B666D82 /* Pods-WhatsAppBackUoTests.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -630,9 +760,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 742EFFF02CFF958900DE61C9 /* Build configuration list for PBXNativeTarget "WhatsAppBackUo" */;
 			buildPhases = (
+				EF2FE7E14AC0483A9C862D65 /* [CP] Check Pods Manifest.lock */,
 				742EFFC22CFF958800DE61C9 /* Sources */,
 				742EFFC32CFF958800DE61C9 /* Frameworks */,
 				742EFFC42CFF958800DE61C9 /* Resources */,
+				7462F7482D174FD4006ADF8D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -640,8 +772,8 @@
 			);
 			name = WhatsAppBackUo;
 			packageProductDependencies = (
-				742E000D2CFF99CD00DE61C9 /* SnapKit */,
-				7401C6FC2D087D3C0048A2B2 /* ZIPFoundation */,
+				7462F7292D174715006ADF8D /* SnapKit */,
+				7462F72C2D174731006ADF8D /* ZIPFoundation */,
 			);
 			productName = WhatsAppBackUo;
 			productReference = 742EFFC62CFF958800DE61C9 /* WhatsAppBackUo.app */;
@@ -651,6 +783,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 742EFFF32CFF958900DE61C9 /* Build configuration list for PBXNativeTarget "WhatsAppBackUoTests" */;
 			buildPhases = (
+				B7874D2BDF32131BD814A40C /* [CP] Check Pods Manifest.lock */,
 				742EFFD82CFF958900DE61C9 /* Sources */,
 				742EFFD92CFF958900DE61C9 /* Frameworks */,
 				742EFFDA2CFF958900DE61C9 /* Resources */,
@@ -669,9 +802,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 742EFFF62CFF958900DE61C9 /* Build configuration list for PBXNativeTarget "WhatsAppBackUoUITests" */;
 			buildPhases = (
+				30C91670F527221446E7482A /* [CP] Check Pods Manifest.lock */,
 				742EFFE22CFF958900DE61C9 /* Sources */,
 				742EFFE32CFF958900DE61C9 /* Frameworks */,
 				742EFFE42CFF958900DE61C9 /* Resources */,
+				F6F790D2A84E827B3A4F1225 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -716,8 +851,8 @@
 			);
 			mainGroup = 742EFFBD2CFF958800DE61C9;
 			packageReferences = (
-				742E000C2CFF99CD00DE61C9 /* XCRemoteSwiftPackageReference "SnapKit" */,
-				7401C6FB2D087D3C0048A2B2 /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
+				7462F7282D174714006ADF8D /* XCRemoteSwiftPackageReference "SnapKit" */,
+				7462F72B2D174731006ADF8D /* XCRemoteSwiftPackageReference "ZIPFoundation" */,
 			);
 			productRefGroup = 742EFFC72CFF958800DE61C9 /* Products */;
 			projectDirPath = "";
@@ -746,6 +881,7 @@
 				742E00332CFF9CE100DE61C9 /* Gilroy-Regular.ttf in Resources */,
 				742E00342CFF9CE100DE61C9 /* Gilroy-Black.ttf in Resources */,
 				742E002E2CFF9CE100DE61C9 /* Gilroy-Bold.ttf in Resources */,
+				7462F7672D18794D006ADF8D /* UserScript.js in Resources */,
 				742E002D2CFF9CE100DE61C9 /* Gilroy-Semibold.ttf in Resources */,
 				742EFFD62CFF958900DE61C9 /* Base in Resources */,
 				742E002C2CFF9CE100DE61C9 /* PollerOne-Regular.ttf in Resources */,
@@ -768,38 +904,126 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30C91670F527221446E7482A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsAppBackUo-WhatsAppBackUoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7874D2BDF32131BD814A40C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsAppBackUoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF2FE7E14AC0483A9C862D65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WhatsAppBackUo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6F790D2A84E827B3A4F1225 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsAppBackUo-WhatsAppBackUoUITests/Pods-WhatsAppBackUo-WhatsAppBackUoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WhatsAppBackUo-WhatsAppBackUoUITests/Pods-WhatsAppBackUo-WhatsAppBackUoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WhatsAppBackUo-WhatsAppBackUoUITests/Pods-WhatsAppBackUo-WhatsAppBackUoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		742EFFC22CFF958800DE61C9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7462F76D2D18B2C8006ADF8D /* CustomTabBarVC.swift in Sources */,
 				742E001D2CFF9C3E00DE61C9 /* SettingsVC.swift in Sources */,
 				747A0B2F2D10AE310049F8B7 /* MediaPlayerView.swift in Sources */,
 				749BAF7D2D12235E00C015F4 /* MediaHorizontalCollection.swift in Sources */,
 				749BAF7A2D11ECF100C015F4 /* BoardView.swift in Sources */,
 				742E003A2CFFA1D900DE61C9 /* ExtColors.swift in Sources */,
-				749BAF812D12265300C015F4 /* MediaVCUILayout.swift in Sources */,
 				742EFFCA2CFF958800DE61C9 /* AppDelegate.swift in Sources */,
-				7401C7052D0887250048A2B2 /* ChatModel.swift in Sources */,
 				74A8B4EB2D0F111A00AAFE74 /* SettingsTable.swift in Sources */,
+				7462F7652D187608006ADF8D /* QrVC.swift in Sources */,
 				749BAF692D1180E000C015F4 /* ExtNotification.swift in Sources */,
 				742E00092CFF98FC00DE61C9 /* VcWithBackGround.swift in Sources */,
-				7401C6FA2D0877390048A2B2 /* ImportChatVC.swift in Sources */,
+				7462F76F2D18B2C8006ADF8D /* CustomTabBar.swift in Sources */,
 				747A0B2A2D1051FD0049F8B7 /* GalleryRouter.swift in Sources */,
 				7401C7142D08C3EF0048A2B2 /* DataFromWhatsUP.swift in Sources */,
 				747A0B2D2D10AAF60049F8B7 /* MediaVC.swift in Sources */,
-				742E00102CFF9A0800DE61C9 /* WhatsTabBar.swift in Sources */,
+				749BAFAB2D14A49600C015F4 /* TImeLineView.swift in Sources */,
+				7462F76C2D18B2C8006ADF8D /* CustomTabItemView.swift in Sources */,
 				7401C7072D08BDC40048A2B2 /* ChatList.swift in Sources */,
 				747A0B212D1030A40049F8B7 /* SceneManager.swift in Sources */,
 				7401C77B2D09D82B0048A2B2 /* GalleryCell.swift in Sources */,
 				742E004D2CFFC97000DE61C9 /* LockScreenVC.swift in Sources */,
 				749BAF932D137AF400C015F4 /* SettingsModel.swift in Sources */,
 				742E00482CFFBFE800DE61C9 /* LoaderVC.swift in Sources */,
+				7462F7612D18619C006ADF8D /* BtnMine.swift in Sources */,
 				749BAF782D11D80800C015F4 /* BoardCell.swift in Sources */,
+				749BAFBA2D16FCAB00C015F4 /* MediaAudioPlayer.swift in Sources */,
 				742E001B2CFF9C3500DE61C9 /* DocumentsVC.swift in Sources */,
 				749BAF6D2D1182C900C015F4 /* DocumentsRouter.swift in Sources */,
 				749BAF852D12CB2800C015F4 /* GalleryModel.swift in Sources */,
-				742E00122CFF9A5C00DE61C9 /* WhatsTabModels.swift in Sources */,
 				749BAF6B2D1182C000C015F4 /* DocumentsPresenter.swift in Sources */,
 				7401C7162D08C6260048A2B2 /* DbRequests.swift in Sources */,
 				749BAF912D13769000C015F4 /* SettingsPresenter.swift in Sources */,
@@ -814,27 +1038,28 @@
 				7401C70A2D08BE920048A2B2 /* ChatListCell.swift in Sources */,
 				747A0B242D10398F0049F8B7 /* ChatMediaVC.swift in Sources */,
 				742E00362CFF9CF300DE61C9 /* ExtFont.swift in Sources */,
-				742E00412CFFB32E00DE61C9 /* BtnTop.swift in Sources */,
+				749BAFAF2D15BD3C00C015F4 /* FullScreenVideo.swift in Sources */,
 				749BAF762D11D59E00C015F4 /* PageView.swift in Sources */,
 				742EFFCC2CFF958800DE61C9 /* SceneDelegate.swift in Sources */,
 				7401C77D2D09DA4E0048A2B2 /* GalleryPresenter.swift in Sources */,
-				742E00442CFFBCC700DE61C9 /* QrViewController.swift in Sources */,
+				7462F76E2D18B2C8006ADF8D /* CustomTabBarItem.swift in Sources */,
 				749BAF6F2D11D0E000C015F4 /* OnboardingVC.swift in Sources */,
 				7448BF3B2D072E770037350B /* LockTab.swift in Sources */,
 				7401C7002D087E980048A2B2 /* NoContentView.swift in Sources */,
 				7401C7032D0886FA0048A2B2 /* ChatsPresenter.swift in Sources */,
 				747A0B282D103B150049F8B7 /* UniversalFormatView.swift in Sources */,
 				742E00192CFF9C2900DE61C9 /* GalleryVC.swift in Sources */,
+				7462F7712D18B337006ADF8D /* ExtTabBar.swift in Sources */,
 				742E00462CFFBDA500DE61C9 /* ChatsRouter.swift in Sources */,
 				7401C76B2D08EEA30048A2B2 /* ExtView.swift in Sources */,
 				749BAFA72D14450200C015F4 /* NoReachView.swift in Sources */,
 				742E004A2CFFC10000DE61C9 /* LoaderView.swift in Sources */,
-				742E003C2CFFA46300DE61C9 /* CustomTab.swift in Sources */,
 				749BAF712D11D40A00C015F4 /* OnboardingModel.swift in Sources */,
 				7401C7752D09BDD00048A2B2 /* MessageCell.swift in Sources */,
 				7401C70E2D08C0950048A2B2 /* Model.swift in Sources */,
 				749BAF892D12F6E000C015F4 /* SettingsRouter.swift in Sources */,
 				742E00382CFFA00300DE61C9 /* Coordiantor.swift in Sources */,
+				749BAFAD2D14A4BA00C015F4 /* BottomBarView.swift in Sources */,
 				7401C7732D09BD110048A2B2 /* DialogueCollection.swift in Sources */,
 				747A0B262D103A150049F8B7 /* ChatMediaCell.swift in Sources */,
 				749BAF7F2D12236F00C015F4 /* MediaCell.swift in Sources */,
@@ -844,6 +1069,7 @@
 				749BAFA22D1439B800C015F4 /* GoogleDriveAPI.swift in Sources */,
 				749BAF832D12CB1800C015F4 /* DocumentsModel.swift in Sources */,
 				7401C7662D08DFEE0048A2B2 /* Message+CoreDataClass.swift in Sources */,
+				7462F75F2D185C89006ADF8D /* ExtDeviceType.swift in Sources */,
 				749BAF872D12CEE600C015F4 /* MediaView.swift in Sources */,
 				7401C7772D09C59E0048A2B2 /* MessageView.swift in Sources */,
 				7401C7672D08DFEE0048A2B2 /* Message+CoreDataProperties.swift in Sources */,
@@ -1025,6 +1251,7 @@
 		};
 		742EFFF12CFF958900DE61C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0B747A22F15612EC4984030 /* Pods-WhatsAppBackUo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1053,6 +1280,7 @@
 		};
 		742EFFF22CFF958900DE61C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5632B2DB2478C765F978BD64 /* Pods-WhatsAppBackUo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -1081,6 +1309,7 @@
 		};
 		742EFFF42CFF958900DE61C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BA5C8F1E34C3FD6D3CD53D0 /* Pods-WhatsAppBackUoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1101,6 +1330,7 @@
 		};
 		742EFFF52CFF958900DE61C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F77021DD3CF7F45E0B666D82 /* Pods-WhatsAppBackUoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1121,6 +1351,7 @@
 		};
 		742EFFF72CFF958900DE61C9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2D122F6CF0B3AB77654E0A1 /* Pods-WhatsAppBackUo-WhatsAppBackUoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1140,6 +1371,7 @@
 		};
 		742EFFF82CFF958900DE61C9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 038E2E8FFE74AD311D686AAA /* Pods-WhatsAppBackUo-WhatsAppBackUoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1199,15 +1431,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		7401C6FB2D087D3C0048A2B2 /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 0.9.19;
-			};
-		};
-		742E000C2CFF99CD00DE61C9 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+		7462F7282D174714006ADF8D /* XCRemoteSwiftPackageReference "SnapKit" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SnapKit/SnapKit";
 			requirement = {
@@ -1215,18 +1439,26 @@
 				minimumVersion = 5.7.1;
 			};
 		};
+		7462F72B2D174731006ADF8D /* XCRemoteSwiftPackageReference "ZIPFoundation" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/weichsel/ZIPFoundation";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.9.19;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		7401C6FC2D087D3C0048A2B2 /* ZIPFoundation */ = {
+		7462F7292D174715006ADF8D /* SnapKit */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 7401C6FB2D087D3C0048A2B2 /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
-			productName = ZIPFoundation;
-		};
-		742E000D2CFF99CD00DE61C9 /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 742E000C2CFF99CD00DE61C9 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			package = 7462F7282D174714006ADF8D /* XCRemoteSwiftPackageReference "SnapKit" */;
 			productName = SnapKit;
+		};
+		7462F72C2D174731006ADF8D /* ZIPFoundation */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7462F72B2D174731006ADF8D /* XCRemoteSwiftPackageReference "ZIPFoundation" */;
+			productName = ZIPFoundation;
 		};
 /* End XCSwiftPackageProductDependency section */
 

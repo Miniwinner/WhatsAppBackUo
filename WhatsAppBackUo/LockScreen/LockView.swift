@@ -7,7 +7,7 @@ class LockView: UIView {
     
     let lblTitle = UILabel() --> {
         $0.textColor = .white
-        $0.font = .custom(type: .glBold, size: 20)
+        $0.font = .custom(type: .glBold, size: UIDevice.pad ? 50:20)
         $0.textAlignment = .center
         $0.text = "Enter your password"
     }
@@ -23,7 +23,7 @@ class LockView: UIView {
     
     let stack = UIStackView() --> {
         $0.alignment = .center
-        $0.spacing = 10
+        $0.spacing = UIDevice.pad ? 20:10
         $0.distribution = .fill
     }
     
@@ -56,9 +56,7 @@ class LockView: UIView {
     
     func clearBoxes() {
         for (index, box) in boxes.enumerated() {
-            
-                box.setText("")
-            
+            box.setText("")
         }
     }
     
@@ -75,20 +73,22 @@ private extension LockView {
         addSubview(lblTitle)
         lblTitle.snp.makeConstraints { make in
             make.top.horizontalEdges.equalToSuperview()
-            make.height.equalTo(30)
+            make.height.equalTo(UIDevice.pad ? 50:30)
         }
         addSubview(stack)
         stack.snp.makeConstraints { make in
             make.bottom.centerX.equalToSuperview()
             make.top.equalTo(lblTitle.snp.bottom).offset(40)
-            make.height.equalTo(40)
+            make.height.equalTo(UIDevice.pad ? 80:40)
         }
     }
     
     func createViews() {
         
         for _ in 0...3 {
-            let textBox = LockTab(frame: CGRect(x: 0, y: 0, width: 40, height: 40))
+            let textBox = LockTab(frame: CGRect(x: 0, y: 0,
+                                                width: UIDevice.pad ? 80:40,
+                                                height: UIDevice.pad ? 80:40))
             boxes.append(textBox)
             stack.addArrangedSubview(textBox)
         }
